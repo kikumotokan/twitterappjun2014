@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimeLineTableViewController.h
 //  LeHuyTran2.0
 //
 //  Created by Codeal on 2014/06/21.
@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <Accounts/Accounts.h>
-#import "TimeLineTableViewController.h"
+#import "TimeLineCell.h"
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController <UIAccelerometerDelegate>
+@interface TimeLineTableViewController : UITableViewController
+
+@property (nonatomic, copy) NSString *identifier;
 
 @end

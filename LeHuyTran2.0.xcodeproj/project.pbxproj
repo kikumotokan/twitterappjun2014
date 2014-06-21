@@ -22,6 +22,10 @@
 		DB1995FB19553B4C002895CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995DA19553B4C002895CC /* UIKit.framework */; };
 		DB19960319553B4C002895CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB19960119553B4C002895CC /* InfoPlist.strings */; };
 		DB19960519553B4C002895CC /* LeHuyTran2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19960419553B4C002895CC /* LeHuyTran2_0Tests.m */; };
+		DB19961019553C42002895CC /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19960F19553C42002895CC /* TimeLineTableViewController.m */; };
+		DB19961319553C62002895CC /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19961219553C62002895CC /* TimeLineCell.m */; };
+		DB19961619553C8A002895CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19961519553C8A002895CC /* DetailViewController.m */; };
+		DB19961919553F4D002895CC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19961819553F4D002895CC /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		DB19960019553B4C002895CC /* LeHuyTran2.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeHuyTran2.0Tests-Info.plist"; sourceTree = "<group>"; };
 		DB19960219553B4C002895CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB19960419553B4C002895CC /* LeHuyTran2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeHuyTran2_0Tests.m; sourceTree = "<group>"; };
+		DB19960E19553C42002895CC /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		DB19960F19553C42002895CC /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		DB19961119553C62002895CC /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		DB19961219553C62002895CC /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		DB19961419553C8A002895CC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DB19961519553C8A002895CC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DB19961719553F4D002895CC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DB19961819553F4D002895CC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,14 @@
 				DB1995EF19553B4C002895CC /* ViewController.m */,
 				DB1995F119553B4C002895CC /* Images.xcassets */,
 				DB1995DD19553B4C002895CC /* Supporting Files */,
+				DB19960E19553C42002895CC /* TimeLineTableViewController.h */,
+				DB19960F19553C42002895CC /* TimeLineTableViewController.m */,
+				DB19961119553C62002895CC /* TimeLineCell.h */,
+				DB19961219553C62002895CC /* TimeLineCell.m */,
+				DB19961419553C8A002895CC /* DetailViewController.h */,
+				DB19961519553C8A002895CC /* DetailViewController.m */,
+				DB19961719553F4D002895CC /* WebViewController.h */,
+				DB19961819553F4D002895CC /* WebViewController.m */,
 			);
 			path = LeHuyTran2.0;
 			sourceTree = "<group>";
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB19961319553C62002895CC /* TimeLineCell.m in Sources */,
+				DB19961919553F4D002895CC /* WebViewController.m in Sources */,
 				DB1995F019553B4C002895CC /* ViewController.m in Sources */,
 				DB1995E719553B4C002895CC /* AppDelegate.m in Sources */,
+				DB19961019553C42002895CC /* TimeLineTableViewController.m in Sources */,
 				DB1995E319553B4C002895CC /* main.m in Sources */,
+				DB19961619553C8A002895CC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
