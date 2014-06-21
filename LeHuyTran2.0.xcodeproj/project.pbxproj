@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1995D719553B4C002895CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995D619553B4C002895CC /* Foundation.framework */; };
+		DB1995D919553B4C002895CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995D819553B4C002895CC /* CoreGraphics.framework */; };
+		DB1995DB19553B4C002895CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995DA19553B4C002895CC /* UIKit.framework */; };
+		DB1995E119553B4C002895CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1995DF19553B4C002895CC /* InfoPlist.strings */; };
+		DB1995E319553B4C002895CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1995E219553B4C002895CC /* main.m */; };
+		DB1995E719553B4C002895CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1995E619553B4C002895CC /* AppDelegate.m */; };
+		DB1995EA19553B4C002895CC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1995E819553B4C002895CC /* Main_iPhone.storyboard */; };
+		DB1995ED19553B4C002895CC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1995EB19553B4C002895CC /* Main_iPad.storyboard */; };
+		DB1995F019553B4C002895CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1995EF19553B4C002895CC /* ViewController.m */; };
+		DB1995F219553B4C002895CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1995F119553B4C002895CC /* Images.xcassets */; };
+		DB1995F919553B4C002895CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995F819553B4C002895CC /* XCTest.framework */; };
+		DB1995FA19553B4C002895CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995D619553B4C002895CC /* Foundation.framework */; };
+		DB1995FB19553B4C002895CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1995DA19553B4C002895CC /* UIKit.framework */; };
+		DB19960319553B4C002895CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB19960119553B4C002895CC /* InfoPlist.strings */; };
+		DB19960519553B4C002895CC /* LeHuyTran2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19960419553B4C002895CC /* LeHuyTran2_0Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1995FC19553B4C002895CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1995CB19553B4C002895CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1995D219553B4C002895CC;
+			remoteInfo = LeHuyTran2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1995D319553B4C002895CC /* LeHuyTran2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeHuyTran2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1995D619553B4C002895CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1995D819553B4C002895CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1995DA19553B4C002895CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1995DE19553B4C002895CC /* LeHuyTran2.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeHuyTran2.0-Info.plist"; sourceTree = "<group>"; };
+		DB1995E019553B4C002895CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1995E219553B4C002895CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1995E419553B4C002895CC /* LeHuyTran2.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeHuyTran2.0-Prefix.pch"; sourceTree = "<group>"; };
+		DB1995E519553B4C002895CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1995E619553B4C002895CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1995E919553B4C002895CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DB1995EC19553B4C002895CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DB1995EE19553B4C002895CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1995EF19553B4C002895CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1995F119553B4C002895CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB1995F719553B4C002895CC /* LeHuyTran2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeHuyTran2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1995F819553B4C002895CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB19960019553B4C002895CC /* LeHuyTran2.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeHuyTran2.0Tests-Info.plist"; sourceTree = "<group>"; };
+		DB19960219553B4C002895CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB19960419553B4C002895CC /* LeHuyTran2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeHuyTran2_0Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1995D019553B4C002895CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1995D919553B4C002895CC /* CoreGraphics.framework in Frameworks */,
+				DB1995DB19553B4C002895CC /* UIKit.framework in Frameworks */,
+				DB1995D719553B4C002895CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1995F419553B4C002895CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1995F919553B4C002895CC /* XCTest.framework in Frameworks */,
+				DB1995FB19553B4C002895CC /* UIKit.framework in Frameworks */,
+				DB1995FA19553B4C002895CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1995CA19553B4C002895CC = {
+			isa = PBXGroup;
+			children = (
+				DB1995DC19553B4C002895CC /* LeHuyTran2.0 */,
+				DB1995FE19553B4C002895CC /* LeHuyTran2.0Tests */,
+				DB1995D519553B4C002895CC /* Frameworks */,
+				DB1995D419553B4C002895CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1995D419553B4C002895CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1995D319553B4C002895CC /* LeHuyTran2.0.app */,
+				DB1995F719553B4C002895CC /* LeHuyTran2.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1995D519553B4C002895CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1995D619553B4C002895CC /* Foundation.framework */,
+				DB1995D819553B4C002895CC /* CoreGraphics.framework */,
+				DB1995DA19553B4C002895CC /* UIKit.framework */,
+				DB1995F819553B4C002895CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1995DC19553B4C002895CC /* LeHuyTran2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				DB1995E519553B4C002895CC /* AppDelegate.h */,
+				DB1995E619553B4C002895CC /* AppDelegate.m */,
+				DB1995E819553B4C002895CC /* Main_iPhone.storyboard */,
+				DB1995EB19553B4C002895CC /* Main_iPad.storyboard */,
+				DB1995EE19553B4C002895CC /* ViewController.h */,
+				DB1995EF19553B4C002895CC /* ViewController.m */,
+				DB1995F119553B4C002895CC /* Images.xcassets */,
+				DB1995DD19553B4C002895CC /* Supporting Files */,
+			);
+			path = LeHuyTran2.0;
+			sourceTree = "<group>";
+		};
+		DB1995DD19553B4C002895CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1995DE19553B4C002895CC /* LeHuyTran2.0-Info.plist */,
+				DB1995DF19553B4C002895CC /* InfoPlist.strings */,
+				DB1995E219553B4C002895CC /* main.m */,
+				DB1995E419553B4C002895CC /* LeHuyTran2.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1995FE19553B4C002895CC /* LeHuyTran2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB19960419553B4C002895CC /* LeHuyTran2_0Tests.m */,
+				DB1995FF19553B4C002895CC /* Supporting Files */,
+			);
+			path = LeHuyTran2.0Tests;
+			sourceTree = "<group>";
+		};
+		DB1995FF19553B4C002895CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB19960019553B4C002895CC /* LeHuyTran2.0Tests-Info.plist */,
+				DB19960119553B4C002895CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1995D219553B4C002895CC /* LeHuyTran2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB19960819553B4C002895CC /* Build configuration list for PBXNativeTarget "LeHuyTran2.0" */;
+			buildPhases = (
+				DB1995CF19553B4C002895CC /* Sources */,
+				DB1995D019553B4C002895CC /* Frameworks */,
+				DB1995D119553B4C002895CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeHuyTran2.0;
+			productName = LeHuyTran2.0;
+			productReference = DB1995D319553B4C002895CC /* LeHuyTran2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1995F619553B4C002895CC /* LeHuyTran2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB19960B19553B4C002895CC /* Build configuration list for PBXNativeTarget "LeHuyTran2.0Tests" */;
+			buildPhases = (
+				DB1995F319553B4C002895CC /* Sources */,
+				DB1995F419553B4C002895CC /* Frameworks */,
+				DB1995F519553B4C002895CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1995FD19553B4C002895CC /* PBXTargetDependency */,
+			);
+			name = LeHuyTran2.0Tests;
+			productName = LeHuyTran2.0Tests;
+			productReference = DB1995F719553B4C002895CC /* LeHuyTran2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1995CB19553B4C002895CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kan KIkumoto";
+				TargetAttributes = {
+					DB1995F619553B4C002895CC = {
+						TestTargetID = DB1995D219553B4C002895CC;
+					};
+				};
+			};
+			buildConfigurationList = DB1995CE19553B4C002895CC /* Build configuration list for PBXProject "LeHuyTran2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1995CA19553B4C002895CC;
+			productRefGroup = DB1995D419553B4C002895CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1995D219553B4C002895CC /* LeHuyTran2.0 */,
+				DB1995F619553B4C002895CC /* LeHuyTran2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1995D119553B4C002895CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1995ED19553B4C002895CC /* Main_iPad.storyboard in Resources */,
+				DB1995F219553B4C002895CC /* Images.xcassets in Resources */,
+				DB1995EA19553B4C002895CC /* Main_iPhone.storyboard in Resources */,
+				DB1995E119553B4C002895CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1995F519553B4C002895CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19960319553B4C002895CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1995CF19553B4C002895CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1995F019553B4C002895CC /* ViewController.m in Sources */,
+				DB1995E719553B4C002895CC /* AppDelegate.m in Sources */,
+				DB1995E319553B4C002895CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1995F319553B4C002895CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19960519553B4C002895CC /* LeHuyTran2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1995FD19553B4C002895CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1995D219553B4C002895CC /* LeHuyTran2.0 */;
+			targetProxy = DB1995FC19553B4C002895CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1995DF19553B4C002895CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1995E019553B4C002895CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB1995E819553B4C002895CC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1995E919553B4C002895CC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1995EB19553B4C002895CC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1995EC19553B4C002895CC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DB19960119553B4C002895CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB19960219553B4C002895CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB19960619553B4C002895CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB19960719553B4C002895CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB19960919553B4C002895CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeHuyTran2.0/LeHuyTran2.0-Prefix.pch";
+				INFOPLIST_FILE = "LeHuyTran2.0/LeHuyTran2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB19960A19553B4C002895CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeHuyTran2.0/LeHuyTran2.0-Prefix.pch";
+				INFOPLIST_FILE = "LeHuyTran2.0/LeHuyTran2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB19960C19553B4C002895CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeHuyTran2.0.app/LeHuyTran2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeHuyTran2.0/LeHuyTran2.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LeHuyTran2.0Tests/LeHuyTran2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB19960D19553B4C002895CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeHuyTran2.0.app/LeHuyTran2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeHuyTran2.0/LeHuyTran2.0-Prefix.pch";
+				INFOPLIST_FILE = "LeHuyTran2.0Tests/LeHuyTran2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1995CE19553B4C002895CC /* Build configuration list for PBXProject "LeHuyTran2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB19960619553B4C002895CC /* Debug */,
+				DB19960719553B4C002895CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB19960819553B4C002895CC /* Build configuration list for PBXNativeTarget "LeHuyTran2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB19960919553B4C002895CC /* Debug */,
+				DB19960A19553B4C002895CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB19960B19553B4C002895CC /* Build configuration list for PBXNativeTarget "LeHuyTran2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB19960C19553B4C002895CC /* Debug */,
+				DB19960D19553B4C002895CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1995CB19553B4C002895CC /* Project object */;
+}
